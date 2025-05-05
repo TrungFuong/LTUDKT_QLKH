@@ -42,3 +42,12 @@ CONVENTION:
 - Tên biến và phương thức: camelCase;
 - Giữa các hàm cách 1 dòng
 - NHỚ COMMENT CODE!!!
+
+Cách dùng GIT branches
+- Tạo thư mục ở máy
+- git clone <link repo>
+- Pull code về: git pull
+- Chạy về đúng chức năng mình làm: git checkout <tên branch>
+- Nhớ pull rồi mới add commit push
+- push xong test xong hết rồi thì tạo PR (pull request) rồi merge
+- Nếu conflict thì phải báo, gửi lên group để xem xét resolve
