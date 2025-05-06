@@ -11,6 +11,7 @@ Trong hệ thống quản lý khách hàng của siêu thị mỗi khách hàng 
 Yêu cầu 1: Xây dựng các lớp để quản lý khách hàng:
 Lớp Customer (lớp cha): Chứa các thông tin chung của khách hàng.
 Lớp LoyalCustomer (kế thừa lớp Customer): Quản lý thông tin khách hàng thân thiết. Lớp CasualCustomer (kế thừa lớp Customer): Quản lý thông tin khách hàng vãng lai. 
+# Đã xong
 
 Yêu cầu 2: Xây dựng lớp ManageCustomer với các chức năng:-
 - Thêm mới khách hàng: Phân loại và thêm khách hàng vào hệ thống (trong đó thông tin Mã khách hàng và Số điện thoại là bắt buộc)
@@ -36,6 +37,8 @@ Yêu cầu 3: Xây dựng chương trình chính với nội dung sau (lưu ý c
 - Hiển thị danh sách 3 khách hàng mua hàng nhiều nhất
 - Thống kê khách hàng thân thiết được nhận quà dịp Tết Nguyên Đán.
 - Thoát chương trình.
+
+Yêu cầu 4: Viết test cases cho các chức năng (tối thiểu 30)
 
 CONVENTION:
 - Tên class: PascalCase;
