@@ -11,6 +11,7 @@ Trong hệ thống quản lý khách hàng của siêu thị mỗi khách hàng 
 Yêu cầu 1: Xây dựng các lớp để quản lý khách hàng:
 Lớp Customer (lớp cha): Chứa các thông tin chung của khách hàng.
 Lớp LoyalCustomer (kế thừa lớp Customer): Quản lý thông tin khách hàng thân thiết. Lớp CasualCustomer (kế thừa lớp Customer): Quản lý thông tin khách hàng vãng lai. 
+# Đã xong
 
 Yêu cầu 2: Xây dựng lớp ManageCustomer với các chức năng:-
 - Thêm mới khách hàng: Phân loại và thêm khách hàng vào hệ thống (trong đó thông tin Mã khách hàng và Số điện thoại là bắt buộc)
@@ -37,8 +38,19 @@ Yêu cầu 3: Xây dựng chương trình chính với nội dung sau (lưu ý c
 - Thống kê khách hàng thân thiết được nhận quà dịp Tết Nguyên Đán.
 - Thoát chương trình.
 
+Yêu cầu 4: Viết test cases cho các chức năng (tối thiểu 30)
+
 CONVENTION:
 - Tên class: PascalCase;
 - Tên biến và phương thức: camelCase;
 - Giữa các hàm cách 1 dòng
 - NHỚ COMMENT CODE!!!
+
+Cách dùng GIT branches
+- Tạo thư mục ở máy
+- git clone <link repo>
+- Pull code về: git pull
+- Chạy về đúng chức năng mình làm: git checkout <tên branch>
+- Nhớ pull rồi mới add commit push
+- push xong test xong hết rồi thì tạo PR (pull request) rồi merge
+- Nếu conflict thì phải báo, gửi lên group để xem xét resolve
